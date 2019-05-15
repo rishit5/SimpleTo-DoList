@@ -1,0 +1,47 @@
+body {
+    background-color: #29ffdf;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container {
+    padding-top: 100px;
+}
+.heading {
+    text-align: center;
+}
+input {
+    background-color: white;
+    border-radius: 10px;
+    width: 20%;
+    height: 30px;
+}
+input:focus {
+    outline:  none;
+}
+.btn, .btnAdd {
+    outline: none
+}
+#list {
+    padding-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    text-align: center;
+}
+.listitem {
+    background-color: wheat;
+    border-radius: 10px;
+    margin: 20px auto 0 auto;
+    vertical-align: middle;
+    padding: 10px 10px 10px 10px;
+    width: 40%;
+}
+.btn{
+    float: right;
+    border-radius: 10px;
+    height: 20px;
+}
+.btnAdd {
+    background-color: white;
+    border-radius: 10px;
+    height: 30px;
+}
